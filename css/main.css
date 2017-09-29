@@ -1,0 +1,14 @@
+h1, h2 {
+  font-family: "museo-slab", serif;
+  font-weight: 500;
+}
+
+p, a {
+  font-family: "omnes-pro", sans-serif;
+}
+
+a {
+  text-decoration: underline;
+  display: block;
+  color: black;
+}

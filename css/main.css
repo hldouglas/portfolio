@@ -22,6 +22,11 @@ h1, h2, h3 {
   font-weight: 500;
 }
 
+.white-bg {
+  background: white;
+  color: #232323;
+}
+
 p, a {
   font-family: "omnes-pro", sans-serif;
 }
@@ -49,12 +54,13 @@ a:hover {
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
+  padding-top: 15px;
 }
 
 #menu-toggle input {
   display: block;
-  width: 40px;
-  height: 32px;
+  width: 64px;
+  height: 64px;
   position: absolute;
   top: -7px;
   left: -5px;
@@ -70,7 +76,7 @@ a:hover {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #cdcdcd;
+  background: #232323;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -105,8 +111,9 @@ a:hover {
 #menu {
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 -150%;
+  margin: -100px 0 0 -150px;
   padding-top: 100px;
+  padding-bottom: 5px;
   background: #ededed;
   list-style-type: none;
   -webkit-touch-callout: none;
@@ -123,11 +130,53 @@ a:hover {
   transform: none;
 }
 
-@media only screen and (min-width: 0em) {
+.container {
+    position: relative;
+}
 
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: tomato;
+  color: white;
+  padding: 16px 24px;
+  border-radius: 8px;
+}
+
+.text p {
+  margin: 0;
 }
 
 @media only screen and (min-width: 38em) {
+
+  #menu-toggle {
+    padding-top: 22px;
+  }
 
 }
 

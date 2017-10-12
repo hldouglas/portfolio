@@ -27,6 +27,10 @@ h1, h2, h3 {
   color: #232323;
 }
 
+.white-text{
+  color: #cdcdcd;
+}
+
 p, a {
   font-family: "omnes-pro", sans-serif;
 }

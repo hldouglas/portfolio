@@ -27,12 +27,12 @@ h1 {
 }
 
 .white-bg {
-  background: white;
+  background: #fdfdfd;
   color: #232323;
 }
 
 .white-text{
-  color: #cdcdcd;
+  color: #fdfdfd;
 }
 
 p, a, figcaption {
@@ -43,23 +43,18 @@ body {
   margin: 0;
   padding: 0;
   background: #232323;
-  color: #cdcdcd;
+  color: #fdfdfd;
 }
 
 a {
   text-decoration: none;
   color: #232323;
   transition: color 0.3s ease;
+  display: block;
 }
 
-a:hover {
-  color: #FF0000;
-}
-
-header {
-  position: fixed;
-  width: 100%;
-  z-index: 1;
+a.brand-shadow-a:hover {
+    text-shadow: -1.25px 0  #FF0000, 1.25px 0 #00FFFF;
 }
 
 #menu-toggle {
@@ -128,7 +123,7 @@ header {
   margin: -100px 0 0 -150px;
   padding-top: 100px;
   padding-bottom: 5px;
-  background: #ededed;
+  background: #fdfdfd;
   list-style-type: none;
   -webkit-touch-callout: none;
   transform-origin: top right;
@@ -192,6 +187,10 @@ header {
     padding-top: 22px;
   }
 
+  a.brand-shadow-a:hover {
+    text-shadow: -1.5px 0  #FF0000, 1.5px 0 #00FFFF;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -200,8 +199,16 @@ header {
     padding-top: 28px;
   }
 
+  a.brand-shadow-a:hover {
+    text-shadow: -1.75px 0  #FF0000, 1.75px 0 #00FFFF;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
+
+  a.brand-shadow-a:hover {
+    text-shadow: -2px 0  #FF0000, 2px 0 #00FFFF;
+  }
 
 }

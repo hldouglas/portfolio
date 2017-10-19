@@ -28,7 +28,7 @@ h1 {
 
 .white-bg {
   background: #fdfdfd;
-  color: #232323;
+  color: #000032;
 }
 
 .white-text{
@@ -42,13 +42,13 @@ p, a, figcaption {
 body {
   margin: 0;
   padding: 0;
-  background: #232323;
+  background: #000032;
   color: #fdfdfd;
 }
 
 a {
   text-decoration: none;
-  color: #232323;
+  color: #000032;
   transition: color 0.3s ease;
   display: block;
 }

@@ -163,7 +163,7 @@ a.brand-shadow-a:hover {
 }
 
 .container:hover .image {
-  opacity: 0.3;
+  opacity: 0.25;
 }
 
 .container:hover .middle {

@@ -39,6 +39,10 @@ p, a, figcaption {
   font-family: "omnes-pro", sans-serif;
 }
 
+figcaption {
+  font-style: italic;
+}
+
 body {
   margin: 0;
   padding: 0;

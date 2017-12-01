@@ -46,7 +46,7 @@ figcaption {
 body {
   margin: 0;
   padding: 0;
-  background: #000032;
+  background: #2c3e50;
   color: #fdfdfd;
 }
 
@@ -89,7 +89,7 @@ a.brand-shadow-a:hover {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #FF0000;
+  background: #ef464c;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -109,7 +109,7 @@ a.brand-shadow-a:hover {
 #menu-toggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #FF0000;
+  background: #ef464c;
 }
 
 #menu-toggle input:checked ~ span:nth-last-child(3) {
@@ -167,7 +167,7 @@ a.brand-shadow-a:hover {
 }
 
 .container:hover .image {
-  opacity: 0.25;
+  opacity: 0.65;
 }
 
 .container:hover .middle {
@@ -175,7 +175,7 @@ a.brand-shadow-a:hover {
 }
 
 .text {
-  background-color: #FF0000;
+  background-color: #ef464c;
   color: white;
   padding: 16px 24px;
   border-radius: 8px;
@@ -183,6 +183,10 @@ a.brand-shadow-a:hover {
 
 .text p {
   margin: 0;
+}
+
+.sec-nav {
+  background-color: #6ebcdb;
 }
 
 @media only screen and (min-width: 38em) {

@@ -1,3 +1,3 @@
-Sitemap: https://hldouglas.github.io/portfolio/sitemap.xml
+Sitemap: https://hannahdouglas.work/sitemap.xml
 
 User-agent: *

@@ -1,0 +1,35 @@
+# humanstxt.org
+
+# TEAM
+
+Designer and Developer: Hannah Douglas <hannah@hannahdouglas.work>
+Site: https://hldouglas.github.io/portfolio/
+Github: http://github.com/hldouglas
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+My classmates for their input and help troubleshooting
+Thomas J Bradley for being the best teacher helping make my vision a reality
+
+---
+
+# TECHNOLOGY
+
+- Apple Macbook Pro
+- Scanner
+- DLSR Camera
+
+## Software
+
+- Atom
+- Github
+- Photoshop
+- ImageOptim
+- Jekyll
+
+## Hosting
+
+- Hover <http://hover.com>

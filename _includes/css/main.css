@@ -214,7 +214,7 @@ a.brand-shadow-a:hover {
   }
 
   a.brand-shadow-a:hover {
-    text-shadow: -1.5px 0  #FF0000, 1.5px 0 #00FFFF;
+    text-shadow: -1.5px 0  #6ebcdb, 1.5px 0 #ef464c;
   }
 
 }
@@ -226,7 +226,7 @@ a.brand-shadow-a:hover {
   }
 
   a.brand-shadow-a:hover {
-    text-shadow: -1.75px 0  #FF0000, 1.75px 0 #00FFFF;
+    text-shadow: -1.75px 0  #6ebcdb, 1.75px 0 #ef464c;
   }
 
 }
@@ -234,7 +234,7 @@ a.brand-shadow-a:hover {
 @media only screen and (min-width: 90em) {
 
   a.brand-shadow-a:hover {
-    text-shadow: -2px 0  #FF0000, 2px 0 #00FFFF;
+    text-shadow: -2px 0  #6ebcdb, 2px 0 #ef464c;
   }
 
 }

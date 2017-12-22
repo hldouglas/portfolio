@@ -61,7 +61,7 @@ a {
 }
 
 a.brand-shadow-a:hover {
-    text-shadow: -1.25px 0  #FF0000, 1.25px 0 #00FFFF;
+    text-shadow: -1.25px 0  #ef464c, 1.25px 0 #6ebcdb;
 }
 
 #menu-toggle {
@@ -70,7 +70,7 @@ a.brand-shadow-a:hover {
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
-  padding-top: 15px;
+  padding-top: 23px;
 }
 
 #menu-toggle input {
@@ -217,10 +217,51 @@ a.brand-shadow-a:hover {
   bottom: 0;
 }
 
+#home {
+  animation: glitch 2.5s linear infinite 3s;
+  width: 50px;
+}
+
+@keyframes glitch {
+
+  0% {
+    filter: none;
+  }
+
+  15% {
+    filter: drop-shadow(-3px 0 0.025px #6ebcdb) drop-shadow(3px 0 0.025px #ef464c);
+  }
+
+  20% {
+    filter: drop-shadow(-2px 0 0.025px #6ebcdb) drop-shadow(2px 0 0.025px #ef464c);
+  }
+
+  25% {
+    filter: drop-shadow(-1.5px 0 0.025px #6ebcdb) drop-shadow(1.5px 0 0.025px #ef464c);
+  }
+
+  30% {
+    filter: drop-shadow(-2px 0 0.025px #6ebcdb) drop-shadow(2px 0 0.025px #ef464c);
+  }
+
+  35% {
+    filter: drop-shadow(-3px 0 0.025px #6ebcdb) drop-shadow(3px 0 0.025px #ef464c);
+  }
+
+  50% {
+    filter: none;
+  }
+
+  100% {
+    filter: none;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   #menu-toggle {
-    padding-top: 22px;
+    padding-top: 26px;
   }
 
   a.brand-shadow-a:hover {

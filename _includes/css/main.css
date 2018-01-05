@@ -258,6 +258,34 @@ a.brand-shadow-a:hover {
 
 }
 
+#light-bulb {
+  animation: glow 3s linear infinite 3s;
+}
+
+@keyframes glow {
+
+  0% {
+    filter: none;
+  }
+
+  25% {
+    filter: drop-shadow(10px 10px 10px 10px #ef464c);
+  }
+
+  50% {
+    filter: none;
+  }
+
+  75% {
+    filter: drop-shadow(10px 10px 10px 10px #6ebcdb);
+  }
+
+  100% {
+    filter: none;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   #menu-toggle {

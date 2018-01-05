@@ -274,13 +274,17 @@ a.brand-shadow-a:hover {
   }
 
   20% {
+    fill: #ef464c;
+  }
+
+  25% {
     filter: drop-shadow(0 0 15px #ef464c);
     fill: #ef464c;
   }
 
   30% {
     filter: drop-shadow(0 0 15px #ef464c);
-    fill: #ef464c;
+    fill: #300608;
   }
 
   50% {
@@ -289,13 +293,17 @@ a.brand-shadow-a:hover {
   }
 
   70% {
+    fill: #6ebcdb;
+  }
+
+  75% {
     filter: drop-shadow(0 0 15px #6ebcdb);
     fill: #6ebcdb;
   }
 
   80% {
     filter: drop-shadow(0 0 15px #6ebcdb);
-    fill: #6ebcdb;
+    fill: #112e3a;
   }
 
   100% {

@@ -7,7 +7,7 @@
     <!-- OPTIONAL: Priority will default to 0.5 but can go up to 1.0. -->
     <priority>1.0</priority>
     <!-- OPTIONAL: Must be in this format -->
-    <lastmod>2017-12-08</lastmod>
+    <lastmod>2018-01-05</lastmod>
     <!-- OPTIONAL: can be always, hourly, daily, weekly, monthly, yearly, never -->
     <changefreq>yearly</changefreq>
   </url>
@@ -30,6 +30,9 @@
   </url>
   <url>
     <loc>https://hannahdouglas.work/karen-douglas-consulting/</loc>
+  </url>
+  <url>
+    <loc>https://hannahdouglas.work/404/</loc>
   </url>
 
 </urlset>

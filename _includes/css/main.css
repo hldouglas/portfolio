@@ -36,7 +36,7 @@ h1 {
   color: #fdfdfd;
 }
 
-p, a, figcaption {
+p, a, figcaption, blockquote {
   font-family: "t26-carbon", monospace;
   font-style: normal;
   font-weight: 400;

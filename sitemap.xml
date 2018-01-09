@@ -7,7 +7,7 @@
     <!-- OPTIONAL: Priority will default to 0.5 but can go up to 1.0. -->
     <priority>1.0</priority>
     <!-- OPTIONAL: Must be in this format -->
-    <lastmod>2018-01-05</lastmod>
+    <lastmod>2018-01-09</lastmod>
     <!-- OPTIONAL: can be always, hourly, daily, weekly, monthly, yearly, never -->
     <changefreq>yearly</changefreq>
   </url>
@@ -17,10 +17,10 @@
     <loc>https://hannahdouglas.work/ui-mirror/</loc>
   </url>
   <url>
-    <loc>https://hannahdouglas.work/rotoscope/</loc>
+    <loc>https://hannahdouglas.work/parallax/</loc>
   </url>
   <url>
-    <loc>https://hannahdouglas.work/walk-cycle/</loc>
+    <loc>https://hannahdouglas.work/brand-identity/</loc>
   </url>
   <url>
     <loc>https://hannahdouglas.work/stroke-poster/</loc>

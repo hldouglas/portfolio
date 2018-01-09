@@ -333,6 +333,11 @@ a.brand-shadow-a:hover {
 
 @media only screen and (min-width: 38em) {
 
+  .anchor {
+    height: 90px;
+    margin-top: -90px;
+  }
+
   #menu-toggle {
     padding-top: 26px;
   }

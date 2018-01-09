@@ -17,6 +17,25 @@ html {
   box-sizing: inherit;
 }
 
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.pad-main {
+  padding-top: 80px;
+}
+
+.anchor {
+  display: block;
+  height: 80px;
+  margin-top: -80px;
+  visibility: hidden;
+}
+
 h1, h2, h3, h4 {
   font-family: "t26-carbon", monospace;
   font-style: normal;
@@ -67,7 +86,7 @@ a.brand-shadow-a:hover {
 #menu-toggle {
   display: block;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   -webkit-user-select: none;
   user-select: none;
   padding-top: 23px;

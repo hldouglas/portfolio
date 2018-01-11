@@ -55,13 +55,13 @@ h1 {
   color: #fdfdfd;
 }
 
-p, a, figcaption, blockquote {
+p, a, figcaption, blockquote, cite{
   font-family: "t26-carbon", monospace;
   font-style: normal;
   font-weight: 400;
 }
 
-figcaption {
+figcaption, cite {
   font-style: italic;
 }
 

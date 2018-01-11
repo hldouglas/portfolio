@@ -1,3 +1,5 @@
+---
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
@@ -7,7 +9,7 @@
     <!-- OPTIONAL: Priority will default to 0.5 but can go up to 1.0. -->
     <priority>1.0</priority>
     <!-- OPTIONAL: Must be in this format -->
-    <lastmod>2018-01-09</lastmod>
+    <lastmod>{{site.time | date: "%Y-%m-%d"}}</lastmod>
     <!-- OPTIONAL: can be always, hourly, daily, weekly, monthly, yearly, never -->
     <changefreq>yearly</changefreq>
   </url>

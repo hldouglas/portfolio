@@ -83,6 +83,10 @@ a.brand-shadow-a:hover {
     text-shadow: -1.25px 0  #ef464c, 1.25px 0 #6ebcdb;
 }
 
+.hover-shadow:hover {
+   box-shadow: 0px 0px 10px 1px #000;
+}
+
 #menu-toggle {
   display: block;
   position: fixed;

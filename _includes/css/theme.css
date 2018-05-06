@@ -2,9 +2,43 @@
   --font-primary: "t26-carbon", monospace;
 
   --color-light-shade: #f5faf8;
-  --color-light-accent: #6cbfd5;
-  --color-main: #e8464e;
-  --color-dark-accent: #c8455a;
+  --color-main-blue: #6cbfd5;
+  --color-main-red: #e8464e;
+  --color-dark-red: #c8455a;
   --color-dark-shade: #251e36;
   --color-darkest-shade: #0f0c15;
+}
+
+body {
+  background-color: var(--color-dark-shade);
+  color: var(--color-light-shade);
+}
+
+header {
+  background-color: var(--color-darkest-shade);
+}
+
+svg {
+  fill: var(--color-light-shade);
+}
+
+#menu {
+  background-color: var(--color-light-shade);
+}
+
+#menu-toggle span {
+  background-color: var(--color-light-shade);
+}
+
+#menu-toggle input:checked ~ span {
+  background-color: var(--color-dark-red);
+}
+
+.text {
+  background-color: var(--color-dark-red);
+  color: var(--color-light-shade);
+}
+
+.sec-nav {
+  background-color: var(--color-darkest-shade);
 }

@@ -26,7 +26,7 @@ header {
 }
 
 .pad-main {
-  padding-top: 80px;
+  padding-top: 85px;
 }
 
 .anchor {
@@ -46,15 +46,6 @@ h1 {
   margin: 0;
 }
 
-.white-bg {
-  background: #fdfdfd;
-  color: #000032;
-}
-
-.white-text{
-  color: #fdfdfd;
-}
-
 p, a, figcaption, blockquote, cite{
   font-family: "t26-carbon", monospace;
   font-style: normal;
@@ -68,8 +59,6 @@ figcaption, cite {
 body {
   margin: 0;
   padding: 0;
-  background: #2c3e50;
-  color: #fdfdfd;
 }
 
 a {
@@ -80,11 +69,11 @@ a {
 }
 
 a.brand-shadow-a:hover {
-    text-shadow: -1.25px 0  #ef464c, 1.25px 0 #6ebcdb;
+    text-shadow: -1.25px 0  var(--color-main-red), 1.25px 0 var(--color-main-blue);
 }
 
 .hover-shadow:hover {
-   box-shadow: 0px 0px 10px 1px #000;
+   box-shadow: 0px 0px 10px 0px var(--color-darkest-shade);
 }
 
 #menu-toggle {
@@ -115,7 +104,6 @@ a.brand-shadow-a:hover {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #ef464c;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -135,7 +123,6 @@ a.brand-shadow-a:hover {
 #menu-toggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #ef464c;
 }
 
 #menu-toggle input:checked ~ span:nth-last-child(3) {
@@ -149,11 +136,10 @@ a.brand-shadow-a:hover {
 
 #menu {
   position: absolute;
-  width: 300px;
+  width: 200px;
   margin: -100px 0 0 -150px;
   padding-top: 100px;
   padding-bottom: 5px;
-  background: #fdfdfd;
   list-style-type: none;
   -webkit-touch-callout: none;
   transform-origin: top right;
@@ -170,7 +156,7 @@ a.brand-shadow-a:hover {
 }
 
 .container {
-    position: relative;
+  position: relative;
 }
 
 .image {
@@ -193,7 +179,7 @@ a.brand-shadow-a:hover {
 }
 
 .container:hover .image {
-  opacity: 0.65;
+  opacity: 0.5;
 }
 
 .container:hover .middle {
@@ -201,8 +187,6 @@ a.brand-shadow-a:hover {
 }
 
 .text {
-  background-color: #ef464c;
-  color: white;
   padding: 16px 24px;
   border-radius: 8px;
 }
@@ -213,10 +197,6 @@ a.brand-shadow-a:hover {
 
 .red {
   border-bottom: 2.5px solid #ef464c;
-}
-
-.sec-nav {
-  background-color: black;
 }
 
 .video-responsive {
@@ -245,7 +225,7 @@ a.brand-shadow-a:hover {
 }
 
 #home {
-  animation: glitch 2.5s linear infinite 3s;
+  animation: glitch 2.75s linear infinite 3s;
   width: 50px;
 }
 
@@ -256,23 +236,23 @@ a.brand-shadow-a:hover {
   }
 
   15% {
-    filter: drop-shadow(-3px 0 0.025px #6ebcdb) drop-shadow(3px 0 0.025px #ef464c);
+    filter: drop-shadow(-3px 0 0.025px var(--color-main-red)) drop-shadow(3px 0 0.025px var(--color-main-blue));
   }
 
   20% {
-    filter: drop-shadow(-2px 0 0.025px #6ebcdb) drop-shadow(2px 0 0.025px #ef464c);
+    filter: drop-shadow(-2px 0 0.025px var(--color-main-red)) drop-shadow(2px 0 0.025px var(--color-main-blue));
   }
 
   25% {
-    filter: drop-shadow(-1.5px 0 0.025px #6ebcdb) drop-shadow(1.5px 0 0.025px #ef464c);
+    filter: drop-shadow(-1.5px 0 0.025px var(--color-main-red)) drop-shadow(1.5px 0 0.025px var(--color-main-blue));
   }
 
   30% {
-    filter: drop-shadow(-2px 0 0.025px #6ebcdb) drop-shadow(2px 0 0.025px #ef464c);
+    filter: drop-shadow(-2px 0 0.025px var(--color-main-red)) drop-shadow(2px 0 0.025px var(--color-main-blue));
   }
 
   35% {
-    filter: drop-shadow(-3px 0 0.025px #6ebcdb) drop-shadow(3px 0 0.025px #ef464c);
+    filter: drop-shadow(-3px 0 0.025px var(--color-main-red)) drop-shadow(3px 0 0.025px var(--color-main-blue));
   }
 
   50% {

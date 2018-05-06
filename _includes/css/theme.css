@@ -1,0 +1,10 @@
+:root {
+  --font-primary: "t26-carbon", monospace;
+
+  --color-light-shade: #f5faf8;
+  --color-light-accent: #6cbfd5;
+  --color-main: #e8464e;
+  --color-dark-accent: #c8455a;
+  --color-dark-shade: #251e36;
+  --color-darkest-shade: #0f0c15;
+}

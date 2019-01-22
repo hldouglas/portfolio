@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: linear-gradient(90deg, var(--color-light-shade) 33.33%, white 33.33%, white 33.33%);
+  background-image: linear-gradient(90deg, var(--color-light-shade) 40%, white 30%, white 30%);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   color: var(--color-darkest-shade);

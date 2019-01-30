@@ -196,7 +196,7 @@ a.brand-shadow-a:hover {
 }
 
 .red {
-  border-bottom: 2.5px solid #ef464c;
+  border-bottom: 2.5px solid var(--color-main-red);
 }
 
 .video-responsive {
@@ -277,36 +277,36 @@ a.brand-shadow-a:hover {
   }
 
   20% {
-    fill: #ef464c;
+    fill: var(--color-main-red);
   }
 
   25% {
-    filter: drop-shadow(0 0 15px #ef464c);
-    fill: #ef464c;
+    filter: drop-shadow(0 0 15px var(--color-main-red));
+    fill: var(--color-main-red);
   }
 
   30% {
-    filter: drop-shadow(0 0 15px #ef464c);
-    fill: #300608;
+    filter: drop-shadow(0 0 15px var(--color-main-red));
+    fill: var(--color-mid-red);
   }
 
   50% {
     filter: none;
-    fill: black;
+    fill: var(--color-darkest-shade);
   }
 
   70% {
-    fill: #6ebcdb;
+    fill: var(--color-main-blue);
   }
 
   75% {
-    filter: drop-shadow(0 0 15px #6ebcdb);
-    fill: #6ebcdb;
+    filter: drop-shadow(0 0 15px var(--color-main-blue));
+    fill: var(--color-main-blue);
   }
 
   80% {
-    filter: drop-shadow(0 0 15px #6ebcdb);
-    fill: #112e3a;
+    filter: drop-shadow(0 0 15px var(--color-main-blue));
+    fill: var(--color-mid-blue);
   }
 
   100% {
@@ -327,7 +327,7 @@ a.brand-shadow-a:hover {
   }
 
   a.brand-shadow-a:hover {
-    text-shadow: -1.5px 0  #6ebcdb, 1.5px 0 #ef464c;
+    text-shadow: -1.5px 0  var(--color-main-blue), 1.5px 0 var(--color-main-red);
   }
 
 }
@@ -339,7 +339,7 @@ a.brand-shadow-a:hover {
   }
 
   a.brand-shadow-a:hover {
-    text-shadow: -1.75px 0  #6ebcdb, 1.75px 0 #ef464c;
+    text-shadow: -1.75px 0  var(--color-main-blue), 1.75px 0 var(--color-main-red);
   }
 
 }
@@ -347,7 +347,7 @@ a.brand-shadow-a:hover {
 @media only screen and (min-width: 90em) {
 
   a.brand-shadow-a:hover {
-    text-shadow: -2px 0  #6ebcdb, 2px 0 #ef464c;
+    text-shadow: -2px 0  var(--color-main-blue), 2px 0 var(--color-main-red);
   }
 
 }

@@ -236,23 +236,23 @@ a.brand-shadow-a:hover {
   }
 
   15% {
-    filter: drop-shadow(-3px 0 0.025px var(--color-main-red)) drop-shadow(3px 0 0.025px var(--color-main-blue));
+    filter: drop-shadow(-3px 0 0.025px var(--color-main-blue)) drop-shadow(3px 0 0.025px var(--color-main-red));
   }
 
   20% {
-    filter: drop-shadow(-2px 0 0.025px var(--color-main-red)) drop-shadow(2px 0 0.025px var(--color-main-blue));
+    filter: drop-shadow(-2px 0 0.025px var(--color-main-blue)) drop-shadow(2px 0 0.025px var(--color-main-red));
   }
 
   25% {
-    filter: drop-shadow(-1.5px 0 0.025px var(--color-main-red)) drop-shadow(1.5px 0 0.025px var(--color-main-blue));
+    filter: drop-shadow(-1.5px 0 0.025px var(--color-main-blue)) drop-shadow(1.5px 0 0.025px var(--color-main-red));
   }
 
   30% {
-    filter: drop-shadow(-2px 0 0.025px var(--color-main-red)) drop-shadow(2px 0 0.025px var(--color-main-blue));
+    filter: drop-shadow(-2px 0 0.025px var(--color-main-blue)) drop-shadow(2px 0 0.025px var(--color-main-red));
   }
 
   35% {
-    filter: drop-shadow(-3px 0 0.025px var(--color-main-red)) drop-shadow(3px 0 0.025px var(--color-main-blue));
+    filter: drop-shadow(-3px 0 0.025px var(--color-main-blue)) drop-shadow(3px 0 0.025px var(--color-main-red));
   }
 
   50% {

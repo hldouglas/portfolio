@@ -16,7 +16,7 @@ body {
   color: var(--color-darkest-shade);
 }
 
-header {
+header, .black-bg {
   background-color: var(--color-darkest-shade);
 }
 
@@ -39,6 +39,14 @@ svg {
 .text {
   background-color: var(--color-light-shade);
   color: var(--color-darkest-shade);
+}
+
+.black-text {
+  color: var(--color-darkest-shade);
+}
+
+.white-text {
+  color: var(--color-light-shade);
 }
 
 .sec-nav {
